@@ -1,0 +1,1185 @@
+body
+{
+    font-family: 'Inter';
+}
+
+.main_block
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.up
+{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.down
+{
+    max-width: 1200px;
+    margin-top: 60px;
+}
+
+
+.first_name
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: 0.865em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.name_magazine
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 143px;
+    line-height: 179px;
+    /* identical to box height */
+
+    letter-spacing: 0.34em;
+
+    color: #477074;
+}
+.square
+{
+    background-color: #555;
+    height: 100px;
+    width: 100px;
+}
+
+.white
+{
+    background-color: white;
+}
+
+.black_green
+{
+    background-color: #477074;
+}
+
+.sred_green
+{
+    background-color: #5C9499;;
+}
+
+.svet_green
+{
+    background-color: #3C9FA9;;
+}
+
+.trs {
+    transition: 3s;
+  }
+
+.contact
+{
+    padding-left: 80px;
+}
+
+.contact_information
+{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        color: black;
+}
+
+.header
+{
+    justify-content: space-between;
+    /* justify-content: center; */
+    display: flex;
+    max-width: 1200px;
+    margin: 44px auto;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: 'Inter';
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	display: none;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	display: inline;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 600px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 6px;
+	background: #fff;
+}
+.close {
+	background: #adacac;
+	color: #000000;
+    height: 40px;
+    width: 120px;
+	right: 0px;
+	text-align: center;
+	top: 50px;
+	
+	text-decoration: none;
+	font-weight: 400;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.close:hover { background: #19b68f; }
+
+.about
+{
+    display: flex;
+    margin: 240px auto;
+    max-width: 1200px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.about_description
+{
+    max-width: 530px;
+    position: relative; 
+
+}
+
+.about_image
+{
+    position: relative; 
+}
+
+.about_image_mobile
+{
+    display: none;
+}
+
+.o_nas
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 77.5163px;
+    letter-spacing: 0.355em;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+    color: #74757F;
+}
+
+.o_nas_description
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 131%;
+    /* or 24px */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+.button_podrobnee
+{
+    margin-top: 61px;
+    width: 530px;
+    height: 117px;
+
+    border: 10px solid #74757F;
+    border-radius: 30px;
+    color: #74757F;
+    background-color: #fff;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+}
+
+.journal_issues
+{
+    max-width: 1200px;
+    margin: 220px auto;
+}
+
+.titile_issues
+{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 64.45px;
+    line-height: 80px;
+    /* identical to box height */
+
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+
+    color: #74757F;
+    text-align: center;
+}
+
+.journal_description
+{
+    margin-top: 8px;
+    justify-content: space-between;
+    display: flex;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: #74757F;
+}
+
+.button_all_journal
+{
+    box-sizing: border-box;
+    width: 585px;
+    height: 468px;
+    left: 735px;
+    top: 1816px;
+
+    border: 10px solid #74757F;
+    border-radius: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #74757F;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.last_3_journal
+{
+    margin-top: 40px;
+}
+
+.footer
+{
+    width: 100%;
+    height: 420px;
+    background: #5C9499;
+
+}
+
+.footer_content
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 95px;
+}
+
+.logo_footer
+{
+    padding-top: 24px;
+}
+
+.footer_navigation
+{
+    height: 110px;
+    padding-top: 51px;
+}
+
+.footer_slogan
+{
+    padding-bottom: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 29px;
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer_line
+{
+    width: 2px;
+    height: 220px;
+    background-color: #fff;
+}
+
+.contact_information_footer
+{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+
+        font-family: 'Inter';
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 22px;
+}
+
+.footer_adress
+{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    width: 350px;
+
+    color: #FFFFFF;
+}
+
+
+.links
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+/* identical to box height */
+
+letter-spacing: 0.04em;
+
+color: #FFFFFF;
+}
+
+@media screen and (max-width: 1195px) {
+    .header 
+    {
+        justify-content: space-between;
+        /* justify-content: center; */
+        display: flex;
+        max-width: 1100px;
+        margin: 44px auto;
+    }
+
+    .main_block
+    {
+        max-width: 1100px;
+    }
+
+    .first_name
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 55px;
+        letter-spacing: 0.865em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    
+    .name_magazine
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 135px;
+        line-height: 179px;
+        /* identical to box height */
+    
+        letter-spacing: 0.34em;
+    
+        color: #477074;
+    }
+
+    .square
+    {
+        background-color: #ffffff;
+        height: 93px;
+        width: 93px;
+    }
+
+    .about
+        {
+            display: flex;
+            margin: 240px auto;
+            max-width: 1100px;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .about_description 
+        {
+            max-width: 480px;
+            position: relative;
+        }
+    
+    .button_podrobnee
+    {
+        width: 480px;
+        margin-top: 45px;
+    }
+
+    .journal_issues
+    {
+        max-width: 1100px;
+    }
+
+    .titile_issues
+    {
+        font-size: 58px;
+    }
+
+    .col
+    {
+        width: 500px;
+    }
+
+    .journal_description
+    {
+        width: 500px;
+    }
+
+    .journal_img
+    {
+        width: 500px;
+    }
+
+    .button_all_journal
+    {
+        width: 500px;
+        height: 400px;
+    }
+
+    .footer_content
+    {
+        max-width: 1100px;
+    }
+
+    .links
+    {
+        max-width: 1100px;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    
+    .header 
+    {
+        justify-content: space-between;
+        /* justify-content: center; */
+        display: flex;
+        max-width: 720px;
+        margin: 44px auto;
+        margin-bottom: 0;
+    }
+
+    .contact
+    {
+        display: none;
+    }
+
+    .main_block
+    {
+        max-width: 720px;
+        margin-top: 100px;
+    }
+
+    .first_name
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30px;
+        letter-spacing: 0.865em;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 0;
+    }
+    
+    .name_magazine
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 89px;
+        line-height: 150px;
+        /* identical to box height */
+    
+        letter-spacing: 0.34em;
+    
+        color: #477074;
+    }
+
+    .square
+    {
+        background-color: #ffffff;
+        height: 62px;
+        width: 62px;
+    }
+
+    .about
+        {
+            display: flex;
+            margin: 140px auto;
+            max-width: 720px;
+            justify-content: space-between;
+            position: relative;
+            margin-bottom: 100px;
+        }
+
+        .about_description 
+        {
+            max-width: 720px;
+            position: relative;
+        }
+
+        .about_image
+        {
+            display: none;
+        }
+    
+    .button_podrobnee
+    {
+        width: 720px;
+        margin-top: 45px;
+    }
+
+    .journal_issues
+    {
+        max-width: 720px;
+        margin: 20px auto;
+    }
+
+    .titile_issues
+    {
+        font-size: 38px;
+    }
+
+    .col
+    {
+        width: 350px;
+    }
+
+    .journal_description
+    {
+        width: 350px;
+    }
+
+    .journal_img
+    {
+        width: 350px;
+    }
+
+    .button_all_journal
+    {
+        width: 350px;
+        height: 280px;
+        line-height: 50px;
+        border: 7px solid #74757F;
+        border-radius: 30px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .footer
+    {
+        margin-top: 200px;
+    }
+
+    .footer_content
+    {
+        max-width: 720px;
+    }
+
+    .links
+    {
+        max-width: 720px;
+    }
+
+    .footer_navigation
+    {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    
+    .header 
+    {
+        justify-content: space-between;
+        /* justify-content: center; */
+        display: flex;
+        max-width: 600px;
+        margin: 44px auto;
+        margin-bottom: 0;
+    }
+
+    .contact
+    {
+        display: none;
+    }
+
+    .main_block
+    {
+        max-width: 600px;
+        margin-top: 80px;
+    }
+
+    .first_name
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 0.865em;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 0;
+    }
+    
+    .name_magazine
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 72px;
+        line-height: 150px;
+        /* identical to box height */
+    
+        letter-spacing: 0.34em;
+    
+        color: #477074;
+    }
+
+    .square
+    {
+        background-color: #ffffff;
+        height: 52px;
+        width: 52px;
+    }
+
+    .about
+        {
+            display: flex;
+            margin: 120px auto;
+            max-width: 600px;
+            justify-content: space-between;
+            position: relative;
+            margin-bottom: 100px;
+        }
+
+        .about_description 
+        {
+            max-width: 600px;
+            position: relative;
+        }
+
+        .about_image
+        {
+            display: none;
+        }
+    
+    .button_podrobnee
+    {
+        width: 600px;
+        margin-top: 45px;
+    }
+
+    .journal_issues
+    {
+        max-width: 600px;
+        margin: 20px auto;
+    }
+
+    .titile_issues
+    {
+        font-size: 32px;
+    }
+
+    .col
+    {
+        width: 280px;
+    }
+
+    .journal_description
+    {
+        width: 280px;
+    }
+
+    .journal_img
+    {
+        width: 280px;
+    }
+
+    .button_all_journal
+    {
+        width: 280px;
+        height: 224px;
+        line-height: 40px;
+        border: 7px solid #74757F;
+        border-radius: 20px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+    }
+
+    .footer
+    {
+        margin-top: 170px;
+    }
+
+    .footer_content
+    {
+        max-width: 600px;
+    }
+
+    .links
+    {
+        max-width: 600px;
+    }
+
+    .footer_navigation
+    {
+        padding-top: 100px;
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 628px) {
+    
+    .body
+    {
+        margin: 0 auto;
+    }
+    .header 
+    {
+        justify-content: space-between;
+        /* justify-content: center; */
+        display: flex;
+        max-width: 450px;
+        margin: 44px auto;
+        margin-bottom: 0;
+    }
+
+    .contact
+    {
+        display: none;
+    }
+
+    .main_block
+    {
+        max-width: 450px;
+        margin-top: 80px;
+        margin-bottom: 120px;
+    }
+
+    .first_name
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.865em;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 0;
+    }
+    
+    .name_magazine
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 54px;
+        line-height: 80px;
+        /* identical to box height */
+    
+        letter-spacing: 0.34em;
+    
+        color: #477074;
+    }
+
+    .up
+    {
+        margin-top: 150px;
+    }
+
+    .square
+    {
+        background-color: #ffffff;
+        height: 39px;
+        width: 39px;
+    }
+
+    .o_nas
+    {
+        font-size: 50px;
+        margin-bottom: 50px;
+    }
+
+    .about
+        {
+            display: flex;
+            /* margin: 120px auto; */
+            max-width: 450px;
+            justify-content: space-between;
+            position: relative;
+            margin-bottom: 100px;
+            margin: 0 auto;
+
+        }
+
+        .about_description 
+        {
+            max-width: 450px;
+            position: relative;
+        }
+
+        .about_image
+        {
+            display: none;
+        }
+    
+    .button_podrobnee
+    {
+        width: 450px;
+        margin-top: 45px;
+        height: 90px;
+
+        border: 6px solid #74757F;
+        border-radius: 20px;
+        font-size: 30px;
+    }
+
+    .journal_issues
+    {
+        max-width: 450px;
+        margin: 50px auto;
+    }
+
+    .titile_issues
+    {
+        font-size: 24px;
+    }
+
+    .col
+    {
+        width: 210px;
+    }
+
+    .last_3_journal
+    {
+        margin-top: 20px;
+    }
+
+    .journal_description
+    {
+        width: 210px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+    .journal_img
+    {
+        width: 210px;
+    }
+
+    .button_all_journal
+    {
+        width: 210px;
+        height: 168px;
+        line-height: 35px;
+        border: 5px solid #74757F;
+        border-radius: 20px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .footer
+    {
+        margin-top: 130px;
+    }
+
+    .logo_footer
+    {
+        display: none;
+    }
+
+    .footer_line
+    {
+        display: none;
+    }
+
+    .footer_content
+    {
+        max-width: 450px;
+    }
+
+    .links
+    {
+        max-width: 450px;
+    }
+
+    .footer_navigation
+    {
+        padding-top: 80px;
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 484px) {
+    
+    .body
+    {
+        margin: 0 auto;
+    }
+    .header 
+    {
+        justify-content: space-between;
+        /* justify-content: center; */
+        display: flex;
+        max-width: 350px;
+        margin: 44px auto;
+        margin-bottom: 0;
+    }
+
+    .contact
+    {
+        display: none;
+    }
+
+    .main_block
+    {
+        max-width: 350px;
+        margin-top: 80px;
+        margin-bottom: 120px;
+    }
+
+    .first_name
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12.5px;
+        line-height: 20px;
+        letter-spacing: 0.865em;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 0;
+    }
+    
+    .name_magazine
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 41px;
+        line-height: 50px;
+        /* identical to box height */
+    
+        letter-spacing: 0.34em;
+    
+        color: #477074;
+    }
+
+    .up
+    {
+        margin-top: 110px;
+    }
+
+    .down
+    {
+        margin-top: 80px;
+        max-width: 350px;
+    }
+
+    .row
+    {
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .square
+    {
+        background-color: #ffffff;
+        height: 58px;
+        width: 58px;
+    }
+
+    .o_nas
+    {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .about
+        {
+            display: flex;
+            /* margin: 120px auto; */
+            max-width: 350px;
+            justify-content: space-between;
+            position: relative;
+            margin-bottom: 100px;
+            margin: 0 auto;
+
+        }
+
+        .o_nas_description
+        {
+            font-size: 14px;
+        }
+
+        .about_description 
+        {
+            max-width: 350px;
+            position: relative;
+        }
+
+        .about_image
+        {
+            display: none;
+        }
+    
+    .button_podrobnee
+    {
+        width: 350px;
+        margin-top: 45px;
+        height: 80px;
+
+        border: 6px solid #74757F;
+        border-radius: 20px;
+        font-size: 25px;
+    }
+
+    .journal_issues
+    {
+        max-width: 350px;
+        margin: 100px auto;
+    }
+
+    .titile_issues
+    {
+        font-size: 35px;
+        line-height: 45px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+
+    .col
+    {
+        width: 350px;
+        padding: 0;
+    }
+
+    .last_3_journal
+    {
+        margin-top: 20px;
+    }
+
+    .journal_description
+    {
+        width: 350px;
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .journal_img
+    {
+        width: 350px;
+    }
+
+    .button_all_journal
+    {
+        width: 350px;
+        height: 224px;
+        line-height: 35px;
+        border: 5px solid #74757F;
+        border-radius: 20px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 35px;
+    }
+
+    .footer
+    {
+        margin-top: 130px;
+    }
+
+    .logo_footer
+    {
+        display: none;
+    }
+
+    .footer_line
+    {
+        display: none;
+    }
+
+    .footer_content
+    {
+        max-width: 350px;
+    }
+
+    .links
+    {
+        max-width: 350px;
+    }
+
+    .footer_navigation
+    {
+        padding-top: 80px;
+        display: none;
+    }
+  }

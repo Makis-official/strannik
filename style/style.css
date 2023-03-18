@@ -976,6 +976,24 @@ color: #FFFFFF;
 
   @media screen and (max-width: 484px) {
     
+	  .black_green
+{
+    background-color: #477074;
+    opacity: 1;
+}
+
+.sred_green
+{
+    background-color: #5C9499;
+    opacity: 1;
+}
+
+.svet_green
+{
+    background-color: #3C9FA9;
+    opacity: 1;
+}
+	  
     .body
     {
         margin: 0 auto;
